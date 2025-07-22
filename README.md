@@ -20,7 +20,7 @@ Este projeto é uma Pokédex interativa desenvolvida com HTML, CSS e JavaScript,
 ## Como executar
 
 Acesse diretamente pelo o link abaixo:
-[https://pokedex-java-script.vercel.app/]
+[(https://pokedex-js-lrobertodevxs-projects.vercel.app/)]
 
 ## Estrutura do Projeto
 
@@ -29,6 +29,7 @@ index.html
 README.md
 assets/
   css/
+    details.css
     global.css
     pokedex.css
   js/
