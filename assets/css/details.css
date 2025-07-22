@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-card {
+    width: 90%;
+    height: 90%;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgb(181, 179, 179);
+}
+
+.content-card img {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 45%;
+    height: 50%;
+    z-index: 3;
+}
+
+
+.upper-icons {
+    margin: .5rem 1rem;
+    position: absolute;
+    top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.upper-icons i {
+    color: #000000;
+    opacity: 30%;
+}
+
+.poke-details-name {
+    position: absolute;
+    top: 6rem;
+    left: 2.5rem;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.poke-details-number {
+    position: absolute;
+    top: 6.5rem;
+    right: 2rem;
+    color: #000000;
+    opacity: 40%;
+}
+
+.poke-details-types {
+    position: absolute;
+    top: 8.3rem;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.poke-details-types .poke-detail-type {
+    color: #ffffff;
+    filter: brightness(1.3);
+    text-align: center;
+    padding: .25rem .5rem;
+    margin: .5rem 1rem;
+    font-size: .825rem;
+    border-radius: 1rem;
+}
+
+.content-card-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    background-color: #e7e5e5;
+    border-radius: 2rem;
+    z-index: 1;
+    padding: 2.5rem 0.3rem;
+}
+
+.header-card ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(200, 199, 199);
+    font-size: .785rem;
+    font-weight: 600;
+}
+
+
+.header-card li {
+    list-style: none;
+    color: rgb(155, 154, 154);
+    margin: 1rem .7rem -.1rem;
+}
+
+.header-card li:hover {
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+    border-bottom: rgb(83, 83, 83);
+}
+
+.poke-details {
+    color: rgb(155, 154, 154);
+    margin: 1.8rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.poke-details p {
+    margin: 1rem 0;
+}
+
+.poke-details-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:576px) {
+    .content-card {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .content-card {
+        width: 50%;
+    }
+
+    .upper-icons {
+        top: .5rem;
+    }
+
+    .poke-details-name {
+        top: 3rem;
+    }
+
+    .poke-details-number {
+        top: 3.5rem;
+    }
+
+    .poke-details-types {
+        top: 4.7rem;
+        left:0;
+    }
+
+    .poke-details p {
+        margin: 0.6rem 0;
+    }
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  font-family: 'bootstrap-icons' !important;
+}
+
+.upper-icons {
+    margin: .5rem 1rem;
+    position: absolute;
+    top: 1.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; 
+    z-index: 10; 
+}
+
+.upper-icons i {
+    color: #ffffff; 
+    font-size: 2rem; 
+    cursor: pointer; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.upper-icons i:hover {
+    opacity: 0.8;
+}
